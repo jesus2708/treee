@@ -13,13 +13,13 @@ void Tree::Line(int Pregunta)
 {
 	for (int j = 0; j < tbxNumero.IntValue; j++)
 	{
-		for (int i = 0; i < Pregunta; i++) 
+		for (int i = 0; i <= j; i++) 
 		{
 			tbx2.Text += L"*";
 		}
 			
 		tbx2.Text += L"\r\n";
-		Pregunta--;
+		Pregunta++;
 	}
 }
 
